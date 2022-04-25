@@ -1,0 +1,171 @@
+/**************
+Color Scheme:
+Green: #55FF06;
+Olive: #697E26;
+Blue: #1b7af7;
+Pink: #ff0073;
+
+**************/
+
+html, body {
+  height: 100%;
+  background-color: #49503D;
+}
+
+
+/*******************************
+  Header
+*******************************/
+
+.jumbotron {
+    text-align: center;
+    color: red;
+    background-color: #697E26;
+}
+
+/*******************************
+  Navigation
+*******************************/
+nav {
+  background-color: #697E26;
+  padding: 1em 0;
+  border: 5px groove #697E26;
+  border-radius: 0.5em;
+  color: #ff0073;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  padding: 0 2em;
+}
+
+/*******************************
+  Links
+*******************************/
+nav ul li a:link,
+a:link {
+  color: #fff;
+}
+
+nav ul li a:visited,
+a:visited {
+  color:#2d7909;
+}
+
+nav ul li a:hover,
+a:hover {
+  color: #ff0073;
+}
+
+/*******************************
+  images
+*******************************/
+#food {
+    border-radius: .5em;
+}
+
+/*******************************
+  Button
+*******************************
+
+.btn-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-container a:link {
+  border: 5px groove #ff0073;
+  color: #fff;
+  padding: .7em;
+  font-size: 1.5em;
+}
+
+.btn-container a:hover {
+  background-color: #55FF06;
+}
+*/
+
+/*******************************
+  Background Garden Tips page
+*******************************/
+
+#tipsBkgd {
+  background-image: url(../images/veggieBackground.jpg);
+  padding: 3em;
+}
+
+#tipsBkgd div {
+  background-color: #fff;
+  opacity: .8;
+  width: 60%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+
+/*******************************
+  Headings
+*******************************/
+
+
+h3, h4 {
+  color: #55FF06;
+}
+
+/*******************************
+  Main Content
+*******************************/
+p {
+  font-weight: bold;
+  text-align: justify;
+}
+
+blockquote {
+  font-size: 1.3em;
+  font-style: italic;
+  color: #2d7909;
+}
+
+/*******************************
+  Images
+*******************************/
+
+
+/*******************************
+  Form
+*******************************/
+form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #2B2A16;
+  padding: 2em;
+  color: #fff;
+}
+
+
+
+/******************************
+Skip link
+*******************************/
+
+.skipLink {
+	position: absolute;
+	left: -1000px;
+}
+
+.skipLink:focus,
+.skipLink:active{
+	left:0;
+}
+
+
+/* Placeholder */
+
+input::placeholder {
+	color: #767676;
+}
